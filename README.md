@@ -29,7 +29,7 @@ Halide-based CNN implementation and benchmarking.
 * Copy `Halide.dll` file from Halide_location\bin\Release and paste this in the Project\x64\Release folder (where your Project.exe file is present). If this folder is not present, run your program using the Local Windows Debugger button as shown in Fig. 2.
 Add the following header file in the Source code - 
 ```
-\#include “Halide.h”
+#include “Halide.h”
 ```
 
 
@@ -52,6 +52,6 @@ But with Halide, we use images. For this purpose we might include the opencv lib
 
 * Add the OpenCV header in your code. In your C++ source file, you can now include the OpenCV header with the following line:
 ```
-\#include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
 ```
 ---
